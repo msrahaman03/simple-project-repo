@@ -1,0 +1,60 @@
+
+*{ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* nav style start */
+header{
+          background-image: url(/img/Hero-bg.png);
+          height: 500px;
+}
+nav{
+          display: flex;
+          justify-content: space-between;
+          margin-left: 50px;
+          margin-right: 50px;
+          align-items: center;
+}
+
+
+nav h1{
+          font-size: 85px;
+          color: blue;
+}  
+
+nav ul li {
+          list-style: none;
+         
+
+}
+nav ul li a button{
+          
+          color: white;
+          background-color: blue;
+          width: 88px;
+          padding: 10px 0;
+          border: none;
+          border-radius:5px ;
+          
+}
+
+/* nav style end */
+
+/* baneer style start */
+.baneer{
+        
+          margin-bottom: 50px;
+         text-align: center;
+}
+
+.btn-class{
+          background-color: blue;
+          max-width:120px;
+          padding: 10px;
+          color: white;
+          font-weight: bold;
+          border: none;
+          border-radius: 8px;
+}
+/* baneer style end */
